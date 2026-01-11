@@ -165,9 +165,9 @@ A comprehensive FiveM server resource pack designed for PvP (Player vs Player) g
 
 ## 🎮 Core Framework Resources
 
-### `[qbx]/` - QBX Framework Resources
+### `[lp]/` - lp Framework Resources
 
-#### **lp_core** / **qbx_core**
+#### **lp_core** 
 - **Description**: Core framework resource for the server
 - **Files**: 94 files (55 Lua scripts, 36 JSON locales)
 - **Key Components**:
@@ -180,7 +180,7 @@ A comprehensive FiveM server resource pack designed for PvP (Player vs Player) g
   - 36 locale files for internationalization
 - **Purpose**: Provides core server functionality, player management, and framework integration
 
-#### **lp_adminmenu** / **qbx_adminmenu**
+#### **lp_adminmenu**
 - **Description**: Administrative menu system
 - **Files**: 25 files (12 Lua scripts, 11 JSON locales)
 - **Components**:
@@ -190,12 +190,12 @@ A comprehensive FiveM server resource pack designed for PvP (Player vs Player) g
   - 11 locale files
 - **Purpose**: Admin tools for server management, player moderation, and administrative functions
 
-#### **lp_chat_theme** / **qbx_chat_theme**
+#### **lp_chat_theme** 
 - **Description**: Custom chat theme styling
 - **Files**: 5 files (1 CSS, 1 JS, 1 Lua manifest)
 - **Purpose**: Customizes the in-game chat appearance and functionality
 
-#### **lp_density** / **qbx_density**
+#### **lp_density** 
 - **Description**: Controls NPC and vehicle density in the game world
 - **Files**: 28 files (23 YMAP files, 3 Lua scripts)
 - **Components**:
@@ -204,58 +204,15 @@ A comprehensive FiveM server resource pack designed for PvP (Player vs Player) g
   - Stream files for map modifications
 - **Purpose**: Manages population density for optimized PvP gameplay
 
-#### **lp_radialmenu** / **qbx_radialmenu**
+#### **lp_radialmenu**
 - **Description**: Radial menu system for quick actions
 - **Files**: 22 files (7 Lua scripts, 13 JSON locales)
 - **Purpose**: Provides a circular menu interface for player interactions
 
-#### **lp_spawn** / **qbx_spawn**
+#### **lp_spawn**
 - **Description**: Player spawn system
 - **Files**: 10 files (4 Lua scripts, 4 JSON locales)
 - **Purpose**: Handles player spawning, character selection, and spawn locations
-
-#### **lp_smallresources** / **qbx_smallresources**
-- **Description**: Collection of small utility resources
-- **Files**: 57 files (29 Lua scripts, 20 JSON files, 8 Markdown docs)
-- **Included Resources**:
-  - `qbx_afk` - AFK detection system
-  - `qbx_consumables` - Consumable items system
-  - `qbx_crouch` - Crouch functionality
-  - `qbx_cruise` - Cruise control for vehicles
-  - `qbx_disableservices` - Disable certain game services
-  - `qbx_editor` - In-game editor
-  - `qbx_entitiesblacklist` - Entity blacklist system
-  - `qbx_flipvehicle` - Vehicle flipping utility
-  - `qbx_hudcomponents` - HUD component management
-  - `qbx_ignore` - Ignore system
-  - `qbx_itempickup` - Item pickup system
-  - `qbx_noshuff` - No weapon shuffle
-  - `qbx_recoils` - Recoil system
-  - `qbx_removeentities` - Entity removal utility
-  - `qbx_stun` - Stun system
-  - `qbx_teleports` - Teleport system
-  - `qbx_vehiclepush` - Vehicle push utility
-  - `qbx_vehicleradio` - Vehicle radio system
-
-#### **qbx_tackle**
-- **Description**: Player tackle system
-- **Files**: 2 Lua scripts (client & server)
-- **Purpose**: Allows players to tackle each other
-
-#### **qbx_teleports**
-- **Description**: Teleportation system
-- **Files**: 3 files (1 JSON config, 1 Lua script, 1 README)
-- **Purpose**: Manages teleport locations and functionality
-
-#### **qbx_vehiclekeys**
-- **Description**: Vehicle key system
-- **Files**: 34 files (18 Lua scripts, 14 JSON locales)
-- **Purpose**: Manages vehicle ownership and key distribution
-
-#### **qbx_vehicles**
-- **Description**: Vehicle management system
-- **Files**: 5 files (2 Lua scripts, 1 README)
-- **Purpose**: Handles vehicle spawning, customization, and management
 
 ---
 
@@ -609,20 +566,7 @@ A comprehensive FiveM server resource pack designed for PvP (Player vs Player) g
 
 ---
 
-## 🎤 Voice Systems
 
-### `[voice]/` - Voice Communication Resources
-
-#### **mm_radio**
-- **Description**: Radio communication system
-- **Files**: 20 files (8 Lua scripts, 6 JSON locales)
-- **Components**:
-  - Client scripts (4 Lua files: event.lua, function.lua, interface.lua, nui.lua)
-  - Server script (main.lua)
-  - Shared utilities (2 Lua files)
-  - Build files (CSS, HTML, JS, overlay image)
-  - 5 locale files
-- **Purpose**: Radio communication between players
 
 #### **pma-voice**
 - **Description**: Proximity-based voice chat system
